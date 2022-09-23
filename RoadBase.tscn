@@ -25,7 +25,7 @@ size = Vector3( 8, 1.2, 50 )
 [node name="RoadBase" type="Spatial"]
 
 [node name="Grass" type="MeshInstance" parent="."]
-transform = Transform( 0.999999, -0.00038759, 0.00116864, 0.000389361, 0.999999, -0.00151805, -0.00116805, 0.00151851, 0.999998, 0, 0, -25 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -25 )
 mesh = SubResource( 2 )
 
 [node name="Dirt_Road" type="MeshInstance" parent="Grass"]
