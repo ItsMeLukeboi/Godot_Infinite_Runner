@@ -65,16 +65,6 @@ transform = Transform( 1, 0.000389363, -0.00116805, -0.000387587, 0.999999, 0.00
 mesh = SubResource( 3 )
 skeleton = NodePath("")
 
-[node name="lowpolytree2" type="MeshInstance" parent="Grass" index="2"]
-transform = Transform( 1, 0.000389363, -0.00116805, -0.000387587, 0.999999, 0.0015185, 0.00116864, -0.00151806, 0.999998, 5.03581, 2.25973, 5.13876 )
-mesh = SubResource( 3 )
-skeleton = NodePath("")
-
-[node name="lowpolytree3" type="MeshInstance" parent="Grass" index="3"]
-transform = Transform( 1, 0.000389363, -0.00116805, -0.000387587, 0.999999, 0.0015185, 0.00116864, -0.00151806, 0.999998, 5.11857, 2.20746, 12.391 )
-mesh = SubResource( 3 )
-skeleton = NodePath("")
-
 [node name="Lowpoly_tree_sample" type="MeshInstance" parent="." index="1"]
 transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -8.00951, 0.776036, -35.5024 )
 mesh = ExtResource( 2 )
@@ -96,7 +86,7 @@ transform = Transform( -8.74228e-09, 0, 0.2, 0, 0.2, 0, -0.2, 0, -8.74228e-09, -
 mesh = ExtResource( 3 )
 
 [node name="lowpolytree" type="MeshInstance" parent="." index="5"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.64512, 2.30779, -2.7655 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.77308, 2.30779, -2.7655 )
 mesh = ExtResource( 4 )
 material/0 = SubResource( 4 )
 material/1 = SubResource( 9 )
