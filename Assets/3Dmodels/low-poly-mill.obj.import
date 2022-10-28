@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/low-poly-mill.obj-76e67d3dd7de564ebefcf86e769cbc3f.mesh"
+
+[deps]
+
+files=[ "res://.import/low-poly-mill.obj-76e67d3dd7de564ebefcf86e769cbc3f.mesh" ]
+
+source_file="res://Assets/3Dmodels/low-poly-mill.obj"
+dest_files=[ "res://.import/low-poly-mill.obj-76e67d3dd7de564ebefcf86e769cbc3f.mesh", "res://.import/low-poly-mill.obj-76e67d3dd7de564ebefcf86e769cbc3f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

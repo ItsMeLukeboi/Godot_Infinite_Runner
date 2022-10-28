@@ -1,9 +1,9 @@
 [gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://RoadBase.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Assets/Lowpoly_tree_sample.obj" type="ArrayMesh" id=2]
-[ext_resource path="res://Assets/low-poly-mill.obj" type="ArrayMesh" id=3]
-[ext_resource path="res://Assets/lowpolytree.obj" type="ArrayMesh" id=4]
+[ext_resource path="res://Assets/3Dmodels/Lowpoly_tree_sample.obj" type="ArrayMesh" id=2]
+[ext_resource path="res://Assets/3Dmodels/low-poly-mill.obj" type="ArrayMesh" id=3]
+[ext_resource path="res://Assets/3Dmodels/lowpolytree.obj" type="ArrayMesh" id=4]
 
 [sub_resource type="SpatialMaterial" id=1]
 albedo_color = Color( 0.0470588, 0.341176, 0.0980392, 1 )

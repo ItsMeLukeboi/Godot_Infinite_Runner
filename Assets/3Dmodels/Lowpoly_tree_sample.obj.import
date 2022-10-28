@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Lowpoly_tree_sample.obj-9f4f44569aa90b6c050ea5a46e8bd11f.mesh"
+
+[deps]
+
+files=[ "res://.import/Lowpoly_tree_sample.obj-9f4f44569aa90b6c050ea5a46e8bd11f.mesh" ]
+
+source_file="res://Assets/3Dmodels/Lowpoly_tree_sample.obj"
+dest_files=[ "res://.import/Lowpoly_tree_sample.obj-9f4f44569aa90b6c050ea5a46e8bd11f.mesh", "res://.import/Lowpoly_tree_sample.obj-9f4f44569aa90b6c050ea5a46e8bd11f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

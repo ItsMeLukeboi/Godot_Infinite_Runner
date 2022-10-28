@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/logstone.obj-925294c10f4dee42f8cbfe0ed4a05626.mesh"
+
+[deps]
+
+files=[ "res://.import/logstone.obj-925294c10f4dee42f8cbfe0ed4a05626.mesh" ]
+
+source_file="res://Assets/3Dmodels/knmvlohtve2o-logstone/logstone.obj"
+dest_files=[ "res://.import/logstone.obj-925294c10f4dee42f8cbfe0ed4a05626.mesh", "res://.import/logstone.obj-925294c10f4dee42f8cbfe0ed4a05626.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286
