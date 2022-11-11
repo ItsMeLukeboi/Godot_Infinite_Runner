@@ -1,0 +1,54 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Logs.tscn" type="PackedScene" id=1]
+[ext_resource path="res://lowpollytree.tscn" type="PackedScene" id=2]
+[ext_resource path="res://RoadBase.tscn" type="PackedScene" id=3]
+
+[node name="RoadBase" instance=ExtResource( 3 )]
+
+[node name="Spatial" type="Spatial" parent="." index="1"]
+
+[node name="Logs" parent="Spatial" index="0" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.257, 1, -9.46307 )
+
+[node name="Spatial" parent="Spatial" index="1" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.79012, 2.30963, -7.11231 )
+
+[node name="Spatial2" parent="Spatial" index="2" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.41325, 2.30963, -20.3727 )
+
+[node name="Logs2" parent="Spatial" index="3" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0189071, 1, -9.46307 )
+
+[node name="Logs3" parent="Spatial" index="4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.19151, 1, -9.46307 )
+
+[node name="Logs4" parent="Spatial" index="5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.257, 1, -21.6634 )
+
+[node name="Logs5" parent="Spatial" index="6" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0779138, 1, -21.6339 )
+
+[node name="Logs6" parent="Spatial" index="7" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.39004, 1, -21.6207 )
+
+[node name="Logs7" parent="Spatial" index="8" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.257, 1, -32.2345 )
+
+[node name="Logs8" parent="Spatial" index="9" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0245686, 1, -32.1992 )
+
+[node name="Logs9" parent="Spatial" index="10" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.38833, 1, -32.1733 )
+
+[node name="Logs10" parent="Spatial" index="11" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0653086, 1, -39.9059 )
+
+[node name="Logs11" parent="Spatial" index="12" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.257, 1, -45.8936 )
+
+[node name="Logs12" parent="Spatial" index="13" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.32075, 1, -45.6242 )
+
+[node name="Spatial3" parent="Spatial" index="14" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.88611, 2.35258, -36.7728 )

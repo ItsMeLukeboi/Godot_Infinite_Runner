@@ -7,7 +7,7 @@ var gravity : float
 var jump_speed : float
 var time : float = 0.0
 var step_freq : float = 2.0 #kuinka usein
-var step_height : float = 0.2 #kuinka korkea tää hahmo hyppy
+var step_height : float = 0.4 #kuinka korkea tää hahmo hyppy
 var step_tilt : float = 8.0 #astieta
 
 onready var boddy_hinge = $BodyHinge # $ = kutsuu nodea
@@ -41,3 +41,11 @@ func _physics_process(delta):
 	velocity.z = -run_speed
 		
 	velocity = move_and_slide(velocity, Vector3.UP)
+	
+	for index in range (get_slide_count()):
+		var collision = get_slide_collision(index)
+		var collision_object = collision.collider as CollisionObject
+		if collision_object.collision_layer & 4:
+			print("Ouch!")
+			get_tree().reload_current_scene()
+	
