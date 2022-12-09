@@ -7,7 +7,7 @@ var jump_height : float = 2.0
 
 onready var player = $Player
 onready var camera_pivot = $CameraPivot
-
+onready var game_over_screen = $CanvasLayer/GameOverScreen
 var initial_roadcount :int = 5
 var road_scenes = [
 	load("res://Road1.tscn"),
@@ -52,3 +52,16 @@ func make_random_road() -> RoadBase:
 	var road_scene = road_scenes[randi() % road_scenes.size()]
 	var road = road_scene.instance()
 	return road
+
+
+func _on_StartScreen_dismissed():
+	get_tree().paused = false
+
+
+func _on_Player_obstacle_hit():
+	get_tree().paused = true
+	game_over_screen.show()
+
+
+func _on_GameOverScreen_dismissed():
+	get_tree().reload_current_scene()
