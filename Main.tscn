@@ -8,6 +8,7 @@
 [ext_resource path="res://UI/PauseScreen.tscn" type="PackedScene" id=6]
 
 [node name="Main" type="Spatial"]
+pause_mode = 2
 transform = Transform( 1, 0, 0, 0, 0.999848, -0.0174524, 0, 0.0174524, 0.999848, 0, 0, 0 )
 script = ExtResource( 3 )
 
@@ -17,6 +18,7 @@ script = ExtResource( 3 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 50 )
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
+pause_mode = 1
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0 )
 
 [node name="DirectionalLight" type="DirectionalLight" parent="."]
